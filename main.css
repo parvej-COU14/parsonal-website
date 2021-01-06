@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+
+}
+.left{
+    width: 40%;
+    float: left;
+    margin: 33px;
+    padding: 28px;
+}
+.left img{
+   width: 100%;
+
+    
+  
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color:black;
+    letter-spacing: .1cm;
+    line-height: .7cm;
+   
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: tomato;
+    letter-spacing: .1cm;
+    line-height: .7cm;
+   
+}
+.highlight{
+    color:blue;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.top{
+    
+    background-image:url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-bottom: 30px;
+   
+   
+    
+
+}
+a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 6px 30px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#0162c8,rgb(255, 122, 122));
+  
+}
+a:hover{
+    background: linear-gradient(90deg,#7b8897,rgb(122, 131, 255)); ;
+}
+/* end  */
+
+
+
+.col-left{
+
+width: 40%;
+    float: left;
+   
+ 
+
+}
+.main{
+    padding-top: 35px;
+  
+}
+
+
+.parvej{
+    height: 400px;
+    padding-left: 200px;
+   
+}
+.about{
+   
+    
+    background-image:url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    padding-top: 30px;
+    
+   
+   
+    
+
+}
