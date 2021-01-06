@@ -150,7 +150,7 @@ border-radius: 5px;}
         #service{
             background-image:url(images/biography-bg.png);
             background-repeat: no-repeat;
-            height: 700px;
+            height: 730px;
         }
         .bottom-part h2{
             font-size: 35px;
@@ -169,7 +169,6 @@ border-radius: 5px;}
 
 
     
-      }
       #contact .contact-items{
           width: 100%;
       }
@@ -211,7 +210,7 @@ box-shadow: 0px 0px 16px 0 #0000002c;}
 #contact{
     background-image:url(images/header-bg.png);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
 }
 
 /* end  *//* end  */
@@ -235,6 +234,51 @@ box-shadow: 0px 0px 16px 0 #0000002c;}
     margin:0;
     padding: 0;
 }
-    
+   /* end  *//* end  */
+  .recent-items img{
+      height: 180px;
+      width: 280px;
+  }
+  #recent.recent-items{
+    width: 100%;
+}
+#recent .recent-item{
+   width: 27%;
+   padding: 10px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 30px;
+   height: 300px;
+  
+  justify-content: center;
+align-items: center;
+float: left;
+box-shadow: 0px 0px 16px 0 #0000002c;
+}
+#recent{
+    height: 500px;
+    background-image:url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#recent .section-title{
+    font-family: 'Bebas Neue', cursive;
+    color: tomato;
+}
+#recent h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color:black;
+    font-size: 35px;
+    letter-spacing: 0cm;
+}
+#recent h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color:black;
+    font-size: 18px;
+    letter-spacing: 0cm;
+}
+   /* end  *//* end  */
         
  
