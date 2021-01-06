@@ -37,17 +37,13 @@ h1{
 .highlight{
     color:blue;
 }
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: black;
-}
+
 .top{
     
     background-image:url(images/header-bg.png);
     background-repeat: no-repeat;
     height: 600px;
-    padding-bottom: 30px;
+
    
    
     
@@ -66,7 +62,9 @@ a{
   
 }
 a:hover{
-    background: linear-gradient(90deg,#7b8897,rgb(122, 131, 255)); ;
+    background: linear-gradient(90deg,#7b8897,rgb(122, 131, 255));
+    color: white; 
+    padding: 8px 35px;
 }
 /* end  */
 
@@ -81,6 +79,7 @@ width: 40%;
 
 }
 .main{
+    font-size: 16px;
     padding-top: 35px;
   
 }
@@ -96,7 +95,7 @@ width: 40%;
     
     background-image:url(images/biography-bg.png);
     background-repeat: no-repeat;
-    height: 550px;
+    height: 500px;
     padding-top: 30px;
     
    
@@ -104,3 +103,138 @@ width: 40%;
     
 
 }
+/* end  */
+#service .services{
+    
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#service .section-title{
+    font-size: 40px;
+    letter-spacing:.05rem;
+    text-align: center;
+}
+
+#service .top-part p{
+   
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 1.5rem;
+text-align: center;
+
+    }
+
+    .service-item{
+        width: 29%;
+        float: left;
+        margin-top: 20px;
+        margin: 10px;
+        padding: 20px;
+    box-shadow: 5px 6px 16px gray;
+
+border-radius: 5px;}
+    .service-item{
+        border-left: 5px solid;
+        border-image: linear-gradient(180deg,blue, tomato);
+        border-image-slice: 1;
+
+    }
+    .service-item{
+        border-bottom: 3px solid;
+        border-image: linear-gradient(180deg,blue, tomato);
+        border-image-slice: 1;
+
+    }
+
+
+        #service{
+            background-image:url(images/biography-bg.png);
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+        .bottom-part h2{
+            font-size: 35px;
+            font-variant: small-caps;
+            color: tomato;
+
+
+        }
+        .bottom-part p{
+            font-size: 16px;
+          
+           
+
+        }
+        /* end  *//* end  */
+
+
+    
+      }
+      #contact .contact-items{
+          width: 100%;
+      }
+      #contact .contact-item{
+         width: 26%;
+         padding: 20px;
+         text-align: center;
+         border-radius: 10px;
+         margin: 30px;
+        
+        justify-content: center;
+    align-items: center;
+float: left;
+box-shadow: 0px 0px 16px 0 #0000002c;}
+.icon{
+    width: 60px;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+
+}
+.contact-item h1{
+    color:black;
+    font-size: 35px;
+}
+#contact .contact-item h2{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: .5cm;
+}
+.section-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact{
+    background-image:url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/* end  *//* end  */
+#footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+#footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.high{
+    color:black;
+}
+.footer-item{
+    background-color: gray;
+    margin:0;
+    padding: 0;
+}
+    
+        
+ 
